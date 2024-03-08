@@ -1,0 +1,47 @@
+### HOME
+
+GET http://localhost:3000/
+
+### REGISTER USER
+
+POST http://localhost:3000/api/auth/register/
+content-type: application/json
+
+{
+    "first_name": "Arnab",
+    "last_name" : "Chatterjee",
+    "username" : "arnab",
+    "email" : "arnabchatterjee912@gmail.com",
+    "password" : "12345"
+}
+
+### LOGIN 
+
+POST http://localhost:3000/api/auth/login/ 
+content-type: application/json
+
+{
+    "username" : "arnab",
+    "password" : "12345"
+}
+
+### ACTIVATE MAIL
+
+POST  http://localhost:3000/api/auth/accounts/activation/
+Content-Type: application/json
+
+{
+    "email" : "arnabchatterjee912@gmail.com"
+}
+
+
+### ME
+
+GET http://localhost:3000/api/auth/accounts/me
+
+
+### LOGOUT
+
+GET http://localhost:3000/api/auth/logout
+
+
