@@ -1,6 +1,6 @@
 # Documentation
 
-## installation
+## Installation
 
 ### Clone the repository. It will consist of two folders. 
 - client - React Website
