@@ -41,7 +41,7 @@ app.use("/api/auth", AuthRouter);
 app.use("/api/posts", [auth, secure], PostRouter);
 
 // listener
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.clear();
   console.log(chalk.yellow.bold(`Server started on PORT: ${process.env.PORT}`));
 });
