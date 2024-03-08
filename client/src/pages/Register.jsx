@@ -235,7 +235,7 @@ const Register = () => {
               )}
 
               <button
-                disabled={!usernameAvailabel || isLoading || !checked}
+                disabled={isLoading || !checked}
                 type="submit"
                 className="flex justify-center items-center gap-2 text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br enabled:active:brightness-75 font-medium rounded-lg py-2.5 text-center  disabled:bg-gray-200 disabled:bg-none disabled:text-gray-500"
               >
