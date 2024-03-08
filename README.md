@@ -23,9 +23,10 @@
 
 | VARIABLE  | DESCRIPTION | DEFAULT |
 | ------------- | ------------- | ------------- |
-| PORT  | PORT_NUMBER  | 4000 |
+| PORT  | PORT_NUMBER  | 3000 |
 | SECRET_KEY  | A SECRET KEY  | "" |
 | PROD | is in production or not | false |
 | APP_PASSWORD | APP PASSWORD FOR GMAIL APP | null |
 
-* APP_PASSWORD : If not given, users will be directly registered with an active account without email verification 
+* APP_PASSWORD : If not given, users will be directly registered with an active account without email verification
+* PORT : If changing port please change the URL in the frontend ```client/src/utils/api.js```. Port 3000 will work fine by default. 
