@@ -23,7 +23,7 @@
 
 | VARIABLE  | DESCRIPTION | DEFAULT |
 | ------------- | ------------- | ------------- |
-| PORT  | PORT_NUMBER  | 4000 |
+| PORT  | PORT_NUMBER  | 3000 |
 | SECRET_KEY  | A SECRET KEY  | "" |
 | PROD | is in production or not | false |
 | APP_PASSWORD | APP PASSWORD FOR GMAIL APP | null |
