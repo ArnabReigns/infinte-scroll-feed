@@ -19,7 +19,7 @@
 
 ### Important
 
-#### Create a  `.env` file in the backend root folder which contains :
+#### There is a `.env` file in the backend root folder which contains :
 
 | VARIABLE  | DESCRIPTION | DEFAULT |
 | ------------- | ------------- | ------------- |
